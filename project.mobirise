@@ -1,0 +1,651 @@
+{
+  "settings": {
+    "name": "BinEZ",
+    "currentPage": "page1.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "versionFirst": "4.3.4",
+    "uniqCompNum": 15,
+    "versionPublish": "4.0.15",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5aac98!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">BinEZ Luggage Check</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"http://deltaairlines-dev.apigee.net/v1/hack/weather\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Flight Info</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/weather\">Weather Info</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/search/flight\">Search Flight</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/flight/status\">Flight Status</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/binez-1-500x500.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BinEZ</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-b"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/binez-1-500x500.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<b>BinEZ</b>",
+          "text": "Making Checking Bags, with available overhead bin space, quicker, more efficient and stress free for Delta customers and staff or as we say BinEZ.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Customer?</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Staff?</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-1",
+          "_styles": {
+            "B": {
+              "color": "#bb412e"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "autoplay": true,
+            "arrowColor": "#e3e3e3",
+            "timeout": 5,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "slides": [
+              {
+                "active": true,
+                "text": "\"My experience with BinEZ was so awesome! It made storing my luggage, in the overhead bin, so easy and less stressful. I didn't worry about getting on the plane and not having space for my luggage.\"",
+                "authorName": "Johanna Ghee",
+                "authorBio": "Delta Skymiles Member and BinEZ User",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/mbr-160x117.png",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ]
+          },
+          "title": "What our fantastic users say",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-8"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "autoplay": true,
+            "arrowColor": "#e3e3e3",
+            "timeout": 5,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "slides": [
+              {
+                "active": true,
+                "text": "<p>\"BinEZ is great! Customers were less anxious about overhead storage and our flight takeoff times decreased by 20%!\"</p>",
+                "authorName": "Ryan Lee",
+                "authorBio": "Delta Flight Staff",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/mbr-160x240.png",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                }
+              }
+            ]
+          },
+          "title": "What our fantastic users say",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-9"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2017 BinEZ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-a"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Staff Form",
+        "order": 1,
+        "header_custom": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5aac98!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">BinEZ Luggage Check</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"http://deltaairlines-dev.apigee.net/v1/hack/weather\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Flight Info</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/weather\">Weather Info</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/search/flight\">Search Flight</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/flight/status\">Flight Status</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/binez-1-500x500.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BinEZ</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-b"
+        },
+        {
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "color": "#616161",
+              "border-color": "#616161",
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".heading": {
+              "background": "#447eaa"
+            }
+          },
+          "_params": {
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showCheckbox": false,
+            "formBg": "#447eaa",
+            "formHeader": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "BinEZ",
+          "text": "Complete the Form for the BinEZ Experience",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, veniam?",
+          "form": {
+            "action": "temiloluwa.adeniyi@gmail.com",
+            "alerts": {
+              "success": "Your login was sucessful, please see the remaining bin volume below the arrow."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name?"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Employee Email?"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Employee ID #?"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Flight #?"
+              }
+            }
+          },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">That was BinEZ!</a>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form3",
+          "_anchor": "form3-3"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<iframe width=\"600\" height=\"371\" seamless=\"\" frameborder=\"0\" scrolling=\"no\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS0xPUOAE1k4LewogFM6plqesjxmg2J3S-OXZyUNuIzHQkeSuFz1Aav21NirLJHSzjiKu_BfgcUpTCR/pubchart?oid=1175110641&amp;format=interactive\"></iframe>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-e",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Customer Form",
+        "order": 2,
+        "header_custom": "\n"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5aac98!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">BinEZ Luggage Check</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"http://deltaairlines-dev.apigee.net/v1/hack/weather\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Flight Info</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/weather\">Weather Info</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://dev-deltaairlines.devportal.apigee.com/ifx-hackathon/apis/get/search/flight\">Search Flight</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://deltaairlines-dev.apigee.net/v1/hack/flight/status\">Flight Status</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/binez-1-500x500.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BinEZ</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-b"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSeek2I4dETRMDLBchcj7d2p4KweFpHoCt-Vu0AbTX5GEH7O4Q/viewform?embedded=true\" width=\"760\" height=\"500\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-d",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        }
+      ]
+    }
+  }
+}
