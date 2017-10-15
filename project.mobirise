@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BinEZ",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
